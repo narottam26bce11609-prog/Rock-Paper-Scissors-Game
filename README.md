@@ -11,3 +11,14 @@ This game allows users to play Rock, Paper, Scissors against the computer. The u
 1. Clone the repository:
    ```bash
    git clone https://github.com/narottam26bce11609-prog/Rock-Paper-Scissors-Game
+2. Navigate to Directory:
+   ```bash
+   cd Rock-Paper-Scissors-Game
+3. Run the game:
+   ```bash
+   python game.py
+
+   
+
+
+   
