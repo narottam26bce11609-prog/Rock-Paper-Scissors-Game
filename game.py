@@ -2,13 +2,13 @@ import random
 
 choices = ["rock", "paper", "scissors"]
 
-print("=== Rock Paper Scissors ===")
+print ("=== Rock Paper Scissors ===")
 
 while True:
     user = input("\nEnter Rock, Paper, or Scissors (or q to quit): ").lower()
 
     if user == "q":
-        print("Thanks for playing!")
+        print ("Thanks for playing!")
         break
 
     if user not in choices:
@@ -17,7 +17,7 @@ while True:
 
     computer = random.choice(choices)
 
-    print("Computer chose:", computer)
+    print ("Computer chose:", computer)
 
     if user == computer:
         print("Result: Draw!")
@@ -25,7 +25,8 @@ while True:
     elif (user == "rock" and computer == "scissors") or \
          (user == "paper" and computer == "rock") or \
          (user == "scissors" and computer == "paper"):
-        print("Result: You Win!")
+        print ("Result: You Win!")
 
     else:
-        print("Result: You Lose!")
+        print ("Result: You Lose!")
+      
